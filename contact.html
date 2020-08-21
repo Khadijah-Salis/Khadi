@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+
+    <style>
+      .kas{
+          padding: 10px;
+          margin: 10px;
+          border-radius: 5px;
+      }
+     input[type=submit]:hover {
+       background-color:cyan;
+   }
+     #form{
+       width: 70%;
+       background-color: none;
+       border-radius: 8px;
+       padding: 20px 12px;
+       margin: 5px;
+       border: 1px solid;
+     }
+     body{
+         background-color: aqua;
+     }
+   
+    #nav{
+      font-size: 20px;
+      text-align: right;
+    }
+   
+ </style>
+
+</head>
+<body>
+  <div id="nav">
+    <nav>
+     <a href="index.html">Home</a> 
+     <a href="about.html">about</a> 
+     <a href="services.html">services</a> 
+     <a href="contact.html">contact</a> 
+   </nav><br>
+  </div>
+  <h3 align= "center"><u>CONTACT US FOR MORE INFO</u></h3>
+  <div class="form">
+  <form  align= "center"   action="https://formspree.io/xyynadez" method="POST">
+   
+    <label for= "firstname"></label>
+    <br>
+   <input type="text" id="form" placeholder="firstname"> 
+   <br>
+   
+   <label for= "lastname"></label> <br>
+   <input type="text" id="form" placeholder ="lastname">
+   <br>
+   
+   <label for= "email"></label><br>
+   <input type="email" id="form" placeholder="email"  name=" _replyto">
+   <br>
+   
+   <label for= "message"></label><br>
+   <textarea type="text" id="form" placeholder="message"></textarea><br>
+   
+  </select>
+  <a href="aksalis97@gmail"><button class="kas">submit</button></a>
+  </form>
+  </div>
+
+
+</body>
+</html>
